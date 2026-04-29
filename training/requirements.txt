@@ -1,0 +1,10 @@
+scikit-learn>=1.5
+skl2onnx>=1.17
+onnx>=1.16
+onnxruntime>=1.19
+transformers>=4.45
+datasets>=3.0
+optimum[onnxruntime]>=1.22
+torch>=2.4
+evaluate>=0.4
+numpy>=1.26

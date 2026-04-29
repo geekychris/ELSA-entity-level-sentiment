@@ -1,0 +1,33 @@
+# Build outputs
+target/
+*.class
+
+# IDE
+.idea/
+*.iml
+*.iws
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+training/venv/
+training/.venv/
+
+# Logs
+logs/
+*.log
+
+# Training artifacts (reproducible by re-running training scripts)
+training/**/checkpoint/
+
+# ONNX models — fetched from a private HF Hub repo or rebuilt by the training scripts.
+# Never committed to the public GitHub repo.
+models/*.onnx
+models/*_onnx_export/
+models/onnx_export/
+models/quantized/
+
+# OS
+.DS_Store
