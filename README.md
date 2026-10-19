@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" alt="Elsa Entity Level Sentiment logo" width="180">
+</p>
+
 # ELSA - Entity-Level Sentiment Analysis
 
 A high-performance Java library for extracting **entity-level sentiment** from text using a layered ML pipeline backed by ONNX Runtime. Given a block of text, ELSA identifies named entities (people, organizations, locations, products) and determines the sentiment expressed toward each one, including who holds that opinion.
